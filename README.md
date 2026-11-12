@@ -1,15 +1,22 @@
-# Microsite Web Summit
+# Microsite Web Summit 2026
 
-Microsite estático para a Web Summit 2026, composto por páginas de início, programa, oradores e inscrição/contacto.
+Microsite estático sobre a Web Summit 2026, criado como projeto escolar.
 
-## GitHub Pages URL
-Coloca aqui a URL gerada pelo GitHub Pages:
+## Tecnologias
 
-https://<seu-usuario>.github.io/<nome-do-repositorio>/
+- HTML5
+- CSS3
+- Bootstrap
 
-## Estrutura
-- `index.html` — página inicial com a imagem principal e a introdução ao evento.
-- `programa.html` — carrossel do programa e informações gerais do evento.
-- `oradores.html` — perfis de oradores com imagens e descrições.
-- `contacto.html` — formulário de inscrição com áreas de contacto.
-- `css/style.css` — estilos reutilizáveis do microsite.
+## Funcionalidades
+
+- Quatro páginas interligadas: início, programa, oradores e inscrição/contacto.
+- Programa apresentado em tabelas e num carrossel.
+- Cartões de oradores organizados com CSS Grid.
+- Formulário com validação nativa do navegador, sem envio para um servidor.
+- O quarto perfil de orador é um exemplo e deve ser atualizado com dados confirmados.
+
+## Ligações
+
+- Repositório GitHub: https://github.com/a14785-oficina/OFICINA-2I-REDES-M4-Microsite_Web_Summit
+- Website publicado: https://a14785-oficina.github.io/OFICINA-2I-REDES-M4-Microsite_Web_Summit/

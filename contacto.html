@@ -73,6 +73,13 @@
                     <!-- Formulário de inscrição na Web Summit -->
                     <form id="formularioExemplo">
 
+                    <!-- Nome do participante -->
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" name="nome"
+                            autocomplete="name" required>
+                    </div>
+
                     <!-- Endereço de email -->
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">
@@ -160,12 +167,20 @@
                             Razão de participação no evento
                         </legend>
 
-                        <div class="form-field">
-                            <label for="exampleFormControlTextarea2" class="form-label"></label>
-                            <textarea class="form-control" id="exampleFormControlTextarea2" rows="4"></textarea>
+                        <div>
+                            <label for="exampleFormControlTextarea2" class="form-label">
+                                Mensagem
+                            </label>
+                            <textarea class="form-control" id="exampleFormControlTextarea2"
+                                name="mensagem" rows="4" required></textarea>
                         </div>
 
                     </fieldset>
+
+                    <div class="form-field mb-3">
+                        <input type="checkbox" id="condicoes" name="condicoes" required>
+                        <label for="condicoes">Aceito as condições de inscrição.</label>
+                    </div>
 
                     <!-- Botão de envio -->
                     <button type="submit" class="btn-solid theme-primary">
