@@ -189,7 +189,7 @@ main {
 
 .oradores-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 20px;
 }
 
@@ -226,4 +226,13 @@ textarea.form-control {
         padding: 15px;
     }
 
+    .oradores-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1199px) {
+    .oradores-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
