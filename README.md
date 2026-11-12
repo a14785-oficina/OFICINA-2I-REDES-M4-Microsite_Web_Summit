@@ -1,5 +1,3 @@
-# OFICINA-2I-REDES-M4-Microsite_Web_Summit
-
 # Microsite Web Summit
 
 Microsite estático para a Web Summit 2026, composto por páginas de início, programa, oradores e inscrição/contacto.
