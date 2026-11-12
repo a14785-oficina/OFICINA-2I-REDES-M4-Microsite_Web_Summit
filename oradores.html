@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oradores - Microsite de Evento Tecnológico</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        /* Imagem de destaque do orador */
+        .bg-header {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+        }
+
+        /* Caixa de apresentação do orador */
+        .header-title {
+            background-color: #f8f9faa4;
+            border: 1px solid #f8f9faa4;
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Espaçamento -->
+        <div class="my-4"></div>
+
+        <header>
+            <!-- Menu de navegação principal do microsite -->
+            <div class="container">
+                <ul class="nav" aria-label="Menu principal">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="programa.html">Programa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="oradores.html">Oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Inscrição/Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Separação -->
+        <hr>
+
+        <main>
+            <div class="container">
+                <div class="header-title">
+                    <div class="my-4"></div>
+
+                    <!-- Conteúdo da página de oradores -->
+                    <div class="container mt-4">
+                        <h1>Oradores do Evento</h1>
+                        <p>Aqui estão os oradores que irão apresentar no evento:</p>
+
+                        <!-- Container para organizar os cartões lado a lado e centrados -->
+                        <div class="d-flex flex-wrap gap-3 align-items-start justify-content-center">
+
+                            <!-- Primeiro cartão: AgiBot A3 -->
+                            <article class="card" style="width: 18rem;">
+                                <div class="card-body" style="text-align: center;">
+                                    <img src="images/Agibot-A3.png" class="card-img" alt="Agibot A3"
+                                        style="width: 100%; height: auto; border-radius: 20px;">
+
+                                    <h5 class="mt-2 mb-0">Featured Speaker</h5>
+                                    <h1>Agibot A3</h1>
+                                    <h4>Humanoid Robot</h4>
+                                    <h5>AgiBot</h5>
+
+                                    <p>
+                                        O A3 da AgiBot é um robô humanoide de tamanho real,
+                                        desenvolvido pelo maior fabricante mundial de robôs
+                                        humanoides em termos de unidades expedidas em 2025.
+                                        Com apenas 55 kg, é suficientemente leve para ser
+                                        transportado por uma única pessoa e apresenta uma
+                                        das melhores relações potência-peso do setor.<br>
+                                        A AgiBot também liderou o quadro de medalhas na sua
+                                        primeira participação nos Jogos Mundiais de Robôs<br>
+                                        Humanoides, realizados em Pequim, em agosto deste
+                                        ano, conquistando 46 medalhas, das quais 18 de ouro.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- Segundo cartão: Novo orador -->
+                            <article class="card" style="width: 18rem;">
+                                <div class="card-body" style="text-align: center;">
+                                    <img src="images/Galbot-G1.png" class="card-img" alt="Galbot G1"
+                                        style="width: 100%; height: auto; border-radius: 20px;">
+
+                                    <h5 class="mt-2 mb-0">Featured Speaker</h5>
+                                    <h1>Galbot G1</h1>
+                                    <h4>Embodied Large-Model Robot</h4>
+                                    <h5>Galbot</h5>
+
+                                    <p>
+                                        Galbot's G1 is one of the world's most commercially deployed humanoid robots.
+                                        It's a wheeled robot with two dexterous arms that works real shifts in shops,
+                                        pharmacies and factories. It runs 170+ autonomous retail stores across 40+
+                                        Chinese cities, staffs China's first pharmacy licensed for robot-assisted
+                                        dispensing, and has orders from CATL, Bosch and Toyota.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <!-- Terceiro cartão: Novo orador -->
+                            <article class="card" style="width: 18rem;">
+                                <div class="card-body" style="text-align: center;">
+                                    <img src="images/Ling-Ge.png" class="card-img" alt="Ling Ge"
+                                        style="width: 100%; height: auto; border-radius: 20px;">
+
+                                    <h5 class="mt-2 mb-0">Featured Speaker</h5>
+                                    <h1>Ling Ge</h1>
+                                    <h4>Chief Investment and Strategy Officer (EMEA)</h4>
+                                    <h5>Tencent</h5>
+
+                                    <p>
+                                        Dr Ling Ge leads Tencent's strategic investments across EMEA, partnering with
+                                        start-ups, universities, governments and industry. Tencent is also a major force
+                                        in open-source AI: its Hunyuan models span reasoning, image, video and 3D
+                                        generation. Hunyuan3D alone has passed 3 million downloads on Hugging Face.
+                                    </p>
+                                </div>
+                            </article>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição/Contacto - Microsite de Evento Tecnológico</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        /* Imagem de destaque do evento */
+        .bg-header {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+        }
+
+        /* Caixa de apresentação do evento */
+        .header-title {
+            background-color: #f8f9faa4;
+            border: 1px solid #f8f9faa4;
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Espaçamento antes do menu de navegação -->
+    <div class="my-4"></div>
+
+    <header>
+        <!-- Menu de navegação principal do microsite -->
+        <div class="container">
+            <ul class="nav" aria-label="Menu principal">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="programa.html">Programa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="oradores.html">Oradores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contacto.html">Inscrição/Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Separação entre a apresentação em texto e a imagem -->
+    <hr>
+
+    <main>
+        <!-- Caixa de apresentação -->
+        <div class="container">
+
+            <!-- Caixa com o título, a descrição e a imagem do evento -->
+            <div class="header-title">
+                <h1>Inscrição/Contacto</h1>
+
+                <!-- Separação -->
+                <hr>
+
+                <div class="container my-4">
+                    <!-- Formulário de inscrição na Web Summit -->
+                    <form id="formularioExemplo">
+
+                    <!-- Endereço de email -->
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">
+                            Endereço de email
+                        </label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" name="email"
+                            autocomplete="email" aria-describedby="emailHelp" required>
+                        <div id="emailHelp" class="form-text">
+                            Nunca partilharemos o teu email com outras pessoas.
+                        </div>
+                    </div>
+
+                    <!-- Tipo de participante -->
+                    <fieldset class="mb-3">
+                        <legend class="form-label text-center">
+                            Tipo de participante
+                        </legend>
+
+                        <!-- Centrar o conjunto de opções,
+                             mantendo os botões alinhados à esquerda -->
+                        <div class="d-flex flex-column align-items-start mx-auto" style="width: fit-content;">
+
+                            <div class="form-field">
+                                <input class="radio" name="tipoParticipante" type="radio" id="estudante"
+                                    value="estudante" required>
+                                <label for="estudante">Estudante</label>
+                            </div>
+
+                            <div class="form-field">
+                                <input class="radio" name="tipoParticipante" type="radio" id="visitante"
+                                    value="visitante">
+                                <label for="visitante">Visitante</label>
+                            </div>
+
+                            <div class="form-field">
+                                <input class="radio" name="tipoParticipante" type="radio" id="empreendedor"
+                                    value="empreendedor">
+                                <label for="empreendedor">Empreendedor</label>
+                            </div>
+
+                            <div class="form-field">
+                                <input class="radio" name="tipoParticipante" type="radio" id="investidor"
+                                    value="investidor">
+                                <label for="investidor">Investidor</label>
+                            </div>
+
+                            <div class="form-field">
+                                <input class="radio" name="tipoParticipante" type="radio" id="orador" value="orador">
+                                <label for="orador">Orador</label>
+                            </div>
+
+                            <div class="form-field">
+                                <input class="radio" name="tipoParticipante" type="radio" id="expositor"
+                                    value="expositor">
+                                <label for="expositor">Expositor</label>
+                            </div>
+
+                            <div class="form-field">
+                                <input class="radio" name="tipoParticipante" type="radio" id="jornalista"
+                                    value="jornalista">
+                                <label for="jornalista">Jornalista</label>
+                            </div>
+
+                            <div class="form-field">
+                                <input class="radio" name="tipoParticipante" type="radio" id="voluntario"
+                                    value="voluntario">
+                                <label for="voluntario">Voluntário</label>
+                            </div>
+
+                            <div class="form-field">
+                                <input class="radio" name="tipoParticipante" type="radio" id="representante"
+                                    value="representante">
+                                <label for="representante">
+                                    Representante empresarial
+                                </label>
+                            </div>
+
+                        </div>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset class="mb-3">
+                        <legend class="form-label text-center">
+                            Razão de participação no evento
+                        </legend>
+
+                        <div class="form-field">
+                            <label for="exampleFormControlTextarea2" class="form-label"></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea2" rows="4"></textarea>
+                        </div>
+
+                    </fieldset>
+
+                    <!-- Botão de envio -->
+                    <button type="submit" class="btn-solid theme-primary">
+                        Enviar
+                    </button>
+
+                        <p id="formStatus" class="form-text" role="status"></p>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
