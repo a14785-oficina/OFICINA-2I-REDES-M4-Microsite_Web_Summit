@@ -182,14 +182,9 @@ main {
     border-radius: 14px;
 }
 
-.oradores-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
-
 .oradores-container .card {
-    width: auto;
+    flex: 1 1 18rem;
+    max-width: 24rem;
     margin: 0;
 }
 
@@ -226,7 +221,4 @@ textarea.form-control {
         padding: 15px;
     }
 
-    .oradores-container {
-        grid-template-columns: 1fr;
-    }
 }
