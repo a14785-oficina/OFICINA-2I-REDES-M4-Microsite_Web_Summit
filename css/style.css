@@ -183,9 +183,14 @@ main {
 }
 
 .oradores-container .card {
-    flex: 1 1 18rem;
-    max-width: 24rem;
+    width: auto;
     margin: 0;
+}
+
+.oradores-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+    gap: 20px;
 }
 
 .form-field {
